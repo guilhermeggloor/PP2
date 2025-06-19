@@ -1,0 +1,29 @@
+Algoritmo MMC
+
+Entrada: n1, n2 - inteiros positivos
+Saida: mmc de n1 e n2
+
+declare
+    div - inteiro
+    mmc - inteiro
+inicio
+    enquanto n1 > 1 ou n2 > 1 faça
+        se n1 ou n2 é divisivel por div, então
+            se n1 é divisivel por div, então   
+                n1 = n1 / div
+            fim_se
+            
+            se n2 é divisivel por div, então    
+                n2 = n2/div
+            fim_se
+            mmc = mmc * div
+
+    sessão
+        div = div + 1
+    fim_sessão
+
+    fim_enquanto
+
+retorne mmc
+
+fim algoritmo
