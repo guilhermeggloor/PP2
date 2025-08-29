@@ -1,0 +1,32 @@
+Trabalho de PP
+
+implementar um xadrez utilizando a SFML 
+
+
+peão
+torre
+cavalo
+bispo
+rainha
+rei
+
+fazer um tabuleiro
+
+tabuleiro 8x8
+
+arquivo de entrada que contém as peças e a localização das peças
+
+a partir disso o programa tem 
+
+resposta: qual o minimo de jogada de um cheque-mate se considerar que a entrada resulta em um cheque-mate
+
+limitar dependendo o numero maximo de jogadas ? 
+
+para cada jogada tem as possibilidades, então pensa que é como uma árvore 
+
+tipo um negocio para prever jogadas, odne antes de movimentar a peça aparece os lugares em verde, pena como no jogo chess online
+
+
+Toda a implementação deve ser feita em C++ e utilizando a SFML 
+
+não é I.A, quando o outro xadrez vai jogar ele testa todas as possibilidades, sendo a melhor a que atrasa o cheque-mate
